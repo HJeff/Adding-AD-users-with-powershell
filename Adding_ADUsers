@@ -1,0 +1,1 @@
+New-aduser -name “Your_name_here” -Givenname “First_Name” -surname “Last_Name” -SamAccountName “Username” -UserPrincipalName “Username@UserCompany.here” -path “OU=OU1, OU=OU2, DC=DC1, DC=DC2” -AccountPassword(“read-host -AsSecureString “Type Password for User”) -Enabled $true
