@@ -1,0 +1,9 @@
+
+#remote computer restart in a loop
+
+
+while(1){
+Get-Service -Name spooler | Where-Object { $_.Status -ne 'Running' } | Start-Service -force
+
+start-sleep -seconds 60
+}
