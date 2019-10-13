@@ -4,7 +4,7 @@
 
 sleep(5)
 
-write-output "please wait for cleaning to finish";
+write-output "please wait for cleaning to finish"
 
 
 cleanmgr.exe /dC
